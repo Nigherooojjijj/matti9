@@ -1,25 +1,25 @@
 {
   "name": "pxt-mfrc522",
   "version": "1.0.0",
-  "description": "MakeCode package for the MFRC522 RFID module.",
+  "description": "MakeCode package for the MFRC522 RFID module on Calliope Mini V3.",
   "dependencies": {
-    "core": "*"
+      "core": "*"
   },
   "files": [
-    "README.md",
-    "MFRC522.ts",
-    "_locales/de/pxt-mfrc522-jsdoc-strings.json",
-    "_locales/de/pxt-mfrc522-strings.json"
+      "README.md",
+      "MFRC522.ts",
+      "_locales/de/pxt-mfrc522-jsdoc-strings.json",
+      "_locales/de/pxt-mfrc522-strings.json"
   ],
   "testFiles": [
-    "test.ts"
+      "test.ts"
   ],
   "targetVersions": {
-    "target": "4.0.11",
-    "targetId": "calliope"
+      "target": "4.0.11",
+      "targetId": "calliope"
   },
   "supportedTargets": [
-    "calliope"
+      "calliope"
   ],
   "preferredEditor": "tsprj"
 }
